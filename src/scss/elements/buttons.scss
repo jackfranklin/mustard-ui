@@ -11,6 +11,7 @@ $button-colors: (
     'warning' : $color-amber-600,
     'danger'  : $color-red-500
 ) !default;
+$font-family: var(--mustard-font-family);
 
 .button,
 button,
@@ -26,6 +27,7 @@ input[type='submit'] {
     overflow: visible;
     appearance: none;
     transition: all .1s ease-out;
+    font-family: $font-family;
 
     font-size: 14px;
     font-weight: 600;

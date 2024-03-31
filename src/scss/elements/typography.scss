@@ -6,8 +6,8 @@ $font-weight: 300 !default;
 $font-size-base: 16px !default;
 $font-color: $color-gray-800 !default;
 $heading-font-color: $color-gray-800 !default;
-$font-family: 'Open Sans', sans-serif !default;
-$heading-font-family: 'Open Sans', sans-serif !default;
+$font-family: var(--mustard-font-family);
+$heading-font-family: var(--mustard-font-family);
 
 body {
   font-family: $font-family;

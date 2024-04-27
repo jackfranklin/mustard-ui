@@ -52,7 +52,6 @@ input[type='submit'] {
 
     &:focus,
     &:hover {
-        opacity: 0.85;
         cursor: pointer;
         transform: scale(1.025);
 
@@ -67,7 +66,8 @@ input[type='submit'] {
     }
 
     &:disabled
-    &.disabled {
+    &.disabled,
+    &[disabled]{
         opacity: 0.5;
         cursor: not-allowed;
     }
